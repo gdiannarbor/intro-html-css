@@ -42,7 +42,7 @@
             <p class="box">Slides: <a href="http://bit.ly/gdiaa-hc">bit.ly/gdiaa-hc</a></p>
             <p class="copy--small"><img src="images/chrome_logo.jpg" style="border:none; box-shadow: none; margin: 0 10px;"/><br/>Install <strong>Google Chrome</strong>, if you don't have it already. <a href="http://google.com/chrome">google.com/chrome</a></p>
             <p class="box copy--small"><img src="images/sublimetext_logo.jpg" style="border:none; box-shadow: none; margin: 0 10px;"/><br/>Download and install <strong>SublimeText.</strong> <a href="http://sublimetext.com">sublimetext.com</a></p>
-            <p><small><span style="yellow">Bonus:</span> Find a few images/photos to use later when we start coding.</small></p>
+            <p><small><span style="yellow">Bonus:</span> Find a few images to use later when we start building web pages.</small></p>
           </section>
 
           <!-- Title -->
@@ -58,8 +58,8 @@
           <section>
             <h3>Overview</h3>
             <ul class="list--tall box--small">
-              <li>What is HTML?</li>
               <li>Anatomy of a Website</li>
+              <li>What is HTML?</li>
               <li>What is CSS?</li>
               <li>Connecting CSS to HTML</li>
               <li>Using the Inspector</li>
@@ -69,38 +69,6 @@
 
         <!-- What is HTML?-->
         <section>
-          <section>
-            <h3>What is HTML?</h3>
-          </section>
-
-          <section>
-            <h3>What is HTML?</h3>
-            <p class="box--small">HTML is the code that allows us to build websites</p>
-            <a href="http://juliecameron.com" target="_blank"><img src="images/homepage-view.png" width="600"></a>
-          </section>
-
-          <section>
-            <h3>What is HTML?</h3>
-            <p class="box--small">If you <strong>'view page source'</strong>, you see this &mdash; it's HTML!</p>
-            <img src="images/homepage-html.png" width="850">
-          </section>
-
-          <!-- History of HTML-->
-          <!-- <section>
-            <h3>History of HTML</h3>
-
-            <div class="left" style="width: 75%;">
-              <ul>
-                <li>Invented by Tim Berners-Lee</li>
-                <li>Created "hypertext" to share<br/>scientific papers</li>
-                <li>First web page August 6, 1991</li>
-                <li>Standardized by w3 Consortium <br/>(pack of super nerds)</li>
-
-              </ul>
-            </div>
-            <div class="right" style="width: 25%;"><img src="images/tim.png" width="300px"><br/><p style="font-size: .4em; color: #888; width: 300px;">Tim Berners-Lee speaking at SXSW 2013.<br/><em>Photo credit: Dennis Lembree</em></p></div>
-          </section> -->
-
           <section>
             <h3>Anatomy of a Website</h3>
             <p class="box">A website is a way to share content with the world.</p>
@@ -126,12 +94,51 @@
             </div>
           </section>
 
+          <section>
+            <h3>What is HTML?</h3>
+            <p class="box"><b class="red">H</b>yper <b class="red">T</b>ext <b class="red">M</b>arkup <b class="red">L</b>anguage</p>
+            <p class="fragment box--small copy--small">A language for describing web documents</p>
+            <p class="fragment box--small copy--small">Uses <span class="green">tags</span> to describe different <span class="blue">types</span> of content<br/><span class="copy--xsmall">Like paragraphs, headers, lists, bold or italic words</span></p>
+            </ul>
+          </section>
+
+          <section>
+            <h3>What is HTML?</h3>
+            <p class="box--small">Let's examine this simple website:</p>
+            <a href="http://juliecameron.com" target="_blank"><img src="images/homepage-view.png" width="600"></a>
+            <aside class="notes">
+              <p>just talk about what it looks like - the content on the page</p>
+            </aside>
+          </section>
+
+          <section>
+            <h3>What is HTML?</h3>
+            <p class="box--small">If you <strong>'view page source'</strong>, you see this &mdash; it's HTML!</p>
+            <a href="view-source:http://www.juliecameron.com/" target="_blank"><img src="images/homepage-html.png" width="850"></a>
+          </section>
+
+          <!-- History of HTML-->
+          <!-- <section>
+            <h3>History of HTML</h3>
+
+            <div class="left" style="width: 75%;">
+              <ul>
+                <li>Invented by Tim Berners-Lee</li>
+                <li>Created "hypertext" to share<br/>scientific papers</li>
+                <li>First web page August 6, 1991</li>
+                <li>Standardized by w3 Consortium <br/>(pack of super nerds)</li>
+
+              </ul>
+            </div>
+            <div class="right" style="width: 25%;"><img src="images/tim.png" width="300px"><br/><p style="font-size: .4em; color: #888; width: 300px;">Tim Berners-Lee speaking at SXSW 2013.<br/><em>Photo credit: Dennis Lembree</em></p></div>
+          </section> -->
+
           <!-- Terms-->
           <section>
            <h3>Terms</h3>
            <ul class="list--tall box">
              <li>
-              <div class="fragment"><span class="green">Web design: </span>The process of using <strong>graphic design software</strong> <em>OR</em> <strong>HTML &amp; CSS</strong> to design a website.</div>
+              <div class="fragment"><span class="green">Web design: </span>The process of using <strong>graphic design software</strong> <em>OR</em> <strong>HTML &amp; CSS</strong> to <i>design</i> a website.</div>
              </li>
              <li>
               <div class="fragment"><span class="green">Web development: </span>The process of <strong>programming web applications</strong> with a variety of tools.</div>
@@ -151,7 +158,7 @@
           <section>
             <h3>What we'll be building today</h3>
             <div class="left left-align" style="width: 45%;">
-              <br /><p>Today we will be learning how to code a site from scratch using paragraphs, headings, links, images, and lists.</p><br />
+              <br /><p>Today we will be learning how to code a site from scratch using paragraphs, headers, links, images, and lists.</p><br />
               <p>We'll add a tiny bit of CSS for colors &amp; fonts, but we're saving CSS layouts for tomorrow.</p>
             </div>
             <div class="right" style="width: 45%;">
@@ -176,7 +183,9 @@
 
           <section>
             <h3>Sublime Text Setup</h3>
-            <div class="box">
+            <p class="box--small copy--small">Hit <code>⌘+,</code> or <code>ctrl+,</code> or find "Preferences > Settings - User" in the Menu</p>
+            <p class="box--small copy--xsmall">Paste in the contents below and save the file.</p>
+            <div>
             <pre><code contenteditable>
                 {
                   "color_scheme": "Packages/Color Scheme - Default/Dawn.tmTheme",
@@ -194,14 +203,15 @@
           <!-- Folder Structure -->
           <section>
             <h3>Folder Structure</h3>
+            <p class="box--small copy--small">A website is basically just a folder full of other folders and files.</p>
             <div class="left box--small" style="width: 45%;">
-            <p class="left-align"><strong>Our folder will contain:</strong></p>
-            <ul>
-              <li>HTML Files</li>
-              <li>CSS Files</li>
-              <li>Images</li>
-              <li>Script files <small>(not today)</small></li>
-              <li>Anything else that will appear on your site</li>
+            <p class="left-align"><strong>Today, our folder will contain:</strong></p>
+            <ul class="copy--small">
+              <li>HTML files</li>
+              <li>CSS files</li>
+              <li>images</li>
+              <li>script files <small>(not today)</small></li>
+              <li>anything else that will appear on your site <small>(fonts, videos, etc.)</small></li>
             </ul>
             </div>
             <div class="right" style="width: 45%;">
@@ -214,8 +224,8 @@
             <ul class="copy--small list--tall box--small">
               <li>Create a new folder somewhere easily remembered (perhaps your desktop?) called '<span class="blue">html-site</span>' &mdash; no spaces, no caps!</li>
               <li>Open Sublime Text &amp; drag your folder onto the icon to open it up in Sublime Text.</li>
-              <li>Create a new <span class="green">index.html</span> file.</li>
-              <li>Create a new <span class="green">styles.css</span> file.</li>
+              <li>Create a new <span class="green">index.html</span> file.<br/><small>In the Sublime Text sidebar, right-click the <code>html-site</code> folder, click "New File...", enter the filename and hit Enter.</small></li>
+              <li>Create a new <span class="green">styles.css</span> file.<br/></li>
               <li>Make sure both files are saved in the <span class="blue">html-site</span> folder!</li>
             </ul>
             <img src="images/folder.png">
@@ -228,11 +238,12 @@
           <section>
            <h3>Anatomy of an HTML element</h3>
            <ul class="copy--small list--bare">
-             <li class="box--small fragment">
+             <li class="box--small">
                <strong class="blue">Element</strong>
                  <ul>
                  <li>An individual component of HTML</li>
-                 <li>Paragraph, heading, table, list, link, image, header, footer, aside, etc.</li>
+                 <li>Paragraph, heading, table, list, link, image, header, footer, etc.</li>
+                 <li>Elements are identified by their tags</li>
                 </ul>
               </li>
               <li class="fragment">
@@ -266,7 +277,8 @@
                  content</li>
                  <li>A paragraph (&lt;p>) contains text</li>
                 </ul>
-                <pre><code contenteditable class="html">&lt;p>Text goes here&lt;/p> </code></pre>
+                <pre><code contenteditable class="html">&lt;p>Text goes here&lt;/p>
+&lt;p>Text goes &lt;b>here&lt;/b>.&lt;/p></code></pre>
           </section>
 
           <section>
@@ -276,12 +288,14 @@
               <li>An element that cannot contain anything else</li>
               <li>Referred to as <strong>self-closing tags</strong></li>
             </ul>
-            <pre><code contenteditable class="html">&lt;img/>
-&lt;br/></code></pre>
+            <pre><code contenteditable class="html">&lt;hr/>
+&lt;br/>
+&lt;img src="path_to_image.jpg" /></code></pre>
           </section>
 
           <section>
             <h3>Anatomy of an HTML Element</h3>
+            <p class="copy--small box--small"><code>&lt;p attribute="value">Some content.&lt;/p></code></p>
             <div class="box--small">
             <p><strong class="blue">Attributes</strong></p>
             <ul class="copy--small">
@@ -297,13 +311,13 @@
             <li>Wrapping values in quotes is optional, but is helpful for readability.</li>
             </ul>
             </div>
-            <pre style="height: 100px; overflow: hidden;"><code contenteditable class="html">&lt;div class="copyright">&copy; GDI 2013&lt;/div>
-&lt;img src="my_picture.jpg" />
+            <pre style="height: 100px; overflow: hidden;"><code contenteditable class="html">&lt;img src="my_picture.jpg" />
 &lt;a href="http://girldevelopit.com">GDI&lt;/a>
+&lt;div class="copyright">&copy; GDI 2013&lt;/div>
             </code></pre>
           </section>
 
-          <section>
+          <!-- <section>
             <h3>An Example</h3>
               <p class="box--small">We have a paragraph of content.</p>
               <div class="fragment copy--small" style="width: 48%; float: left">Putting your content into an HTML tag to make it look like a paragraph is Structure
@@ -313,13 +327,13 @@
               </div>
 
             <div class="fragment  copy--small" style="width: 48%; float: right">
-              To add the class of "blue," we'd put the attribute &amp; value in the opening <code contenteditable>&lt;p></code> tag:
+              To add the class of <code>blue</code>, we'd put the attribute &amp; value in the opening <code contenteditable>&lt;p></code> tag:
                 <pre><code contenteditable class="html">
                     &lt;p class="blue">A paragraph is your content&lt;/p>
                   </code></pre>
             </div>
           </section>
-
+ -->
           <section>
             <h3>Nesting</h3>
             <p class="box">Elements can "nest" inside one another</p>
@@ -333,8 +347,8 @@
           </section>
 
           <section>
-            <h3>Nesting Indentation</h3>
-            <p class="box copy--small">This is important for <strong>readability</strong> and <strong>debugging</strong>.</p>
+            <h3>Indentation</h3>
+            <p class="box copy--small">Is <i>really</i> important for <strong>readability</strong> and <strong>debugging</strong>.</p>
             <pre><code contenteditable>
               &lt;ul>
                 &lt;li>
@@ -350,13 +364,13 @@
         <!-- HTML Page-->
         <section>
           <section>
-              <h3>Doctype</h3>
+              <h3>doctype</h3>
               <p class="copy--small box--small">The ﬁrst thing on an HTML page is the doctype, which tells the browser what version of the markup language the page is using.</p>
              <hr class="box--small">
              <div style="float: left; width: 48%">
                 <p class="red">In the bad <em>old days</em>...</p>
                 <pre><code contenteditable class="html">
-                  &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD
+                  &lt;!doctype HTML PUBLIC "-//W3C//DTD
                   HTML 4.01 Transitional//EN"
                   "http://www.w3.org/TR/html4/loose.dtd">
                 </code></pre>
@@ -367,13 +381,14 @@
                   &lt;!doctype html>
                 </code></pre>
               </div>
+              <small>This tag is special - it has no closing tag.</small>
           </section>
 
           <section>
             <h3>HTML Tag</h3>
-            <p class="copy--small box">After <code contenteditable>&lt;doctype></code>, the page content<br/>must be contained between <code contenteditable>&lt;html></code> tags.</p>
+            <p class="copy--small box">After <code contenteditable>&lt;doctype></code>, the page content<br/>must be contained within <code contenteditable>&lt;html></code> tags.</p>
             <pre><code contenteditable class="html">
-              &lt;!DOCTYPE html>
+              &lt;!doctype html>
               &lt;html>
 
               &lt;/html>
@@ -399,9 +414,15 @@
           </section>
 
           <section>
-            <h3>Head and Body Tags</h3>
+            <h3>The Title Tag</h3>
+            <p class="copy--small box--small">The <code>title</code> tag allows you to set the text that shows up on the browser tab, as well as in Google search results.</p>
+            <div><pre><code contenteditable class="html">&lt;title>Title of the page&lt;/title></code></pre></div>
+          </section>
+
+          <section>
+            <h3>Head, Body, &amp; Title Tags</h3>
             <div  class="box"><pre><code contenteditable class="html">
-                &lt;!DOCTYPE html>
+                &lt;!doctype html>
                 &lt;html>
                    &lt;head>
                       &lt;title>Title of the page&lt;/title>
@@ -431,7 +452,7 @@
             <h3>Check In</h3>
             <p class="copy--small box">Your <span class="blue">index.html</span> file should now have the following content: </p>
             <pre><code contenteditable class="html">
-              &lt;!DOCTYPE html>
+              &lt;!doctype html>
               &lt;html>
                  &lt;head>
                     &lt;title>Title of the page &lt;/title>
@@ -454,14 +475,14 @@
             <div class="box--small left" style="width:50%">
             <pre><code contenteditable>
               &lt;p>Paragraph 1&lt;/p>
-              &lt;p>Paragraph 2&lt;/p>
-              &lt;p>Paragraph 3&lt;/p>
+              &lt;p>Paragraph  2&lt;/p>
+              &lt;p> Paragraph 3 &lt;/p>
             </code></pre>
             </div>
-            <div class="box">
+            <div class="box left-align">
             <p>Paragraph 1</p>
-            <p>Paragraph 2</p>
-            <p>Paragraph 3</p>
+            <p>Paragraph  2</p>
+            <p>Paragraph 3 </p>
 
             </div>
             <p><small>* White space in HTML is only for humans and their sanity!</small></p>
@@ -487,7 +508,7 @@
                 &lt;h6>Heading 6&lt;/h6>
               </code></pre>
             </div>
-            <div class="box left" style="width:50%">
+            <div class="box left align-left" style="width:50%">
               <h1 style="font-size: 120%; text-shadow: none;">Heading 1</h1>
               <h2 style="font-size: 110%">Heading 2</h2>
               <h3 style="font-size: 105%">Heading 3</h3>
@@ -496,6 +517,7 @@
               <h6 style="font-size: 75%">Heading 6</h6>
             </div>
             <p><small>* Heading number indicates hierarchy, not size. Think: Outlines from high school papers</small></p>
+            <p><small>* We can change the appearance of headings with CSS</small></p>
           </section>
 
           <!--heading examples-->
@@ -557,7 +579,7 @@ text and &lt;strong>Important&lt;/strong> text.&lt;/p></code></pre>
         <h3>Check In</h3>
         <p class="copy--small box--small">Now your <span class="blue">index.html</span> file should be looking something like this:</p>
         <pre><code contenteditable class="html" style="min-height: 300px; max-height: 475px;">
-              &lt;!DOCTYPE html>
+              &lt;!doctype html>
               &lt;html>
                  &lt;head>
                     &lt;title>Title of the page &lt;/title>
@@ -590,6 +612,7 @@ text and &lt;strong>Important&lt;/strong> text.&lt;/p></code></pre>
                  &lt;/body>
               &lt;/html>
             </code></pre>
+            <p><small>* Remember to use spacing and indentation to your benefit</small></p>
       </section>
     </section>
 
@@ -655,7 +678,7 @@ text and &lt;strong>Important&lt;/strong> text.&lt;/p></code></pre>
           <h3>Check In</h3>
           <p class="copy--small box--small">Our friendly <span class="blue">index.html</span> file is starting to look a bit like so:</p>
         <pre><code contenteditable class="html" style="min-height: 300px; max-height: 475px;">
-            &lt;!DOCTYPE html>
+            &lt;!doctype html>
             &lt;html>
                &lt;head>
                   &lt;title>Title of the page &lt;/title>
@@ -779,7 +802,7 @@ text and &lt;strong>Important&lt;/strong> text.&lt;/p></code></pre>
   <h3>Check In</h3>
           <p class="box--small copy--small">Our <span class="blue">index.html</span> file now looks something like:</p>
         <pre><code contenteditable class="html" style="min-height: 300px; max-height: 475px;">
-            &lt;!DOCTYPE html>
+            &lt;!doctype html>
             &lt;html>
                &lt;head>
                   &lt;title>Title of the page &lt;/title>
@@ -932,7 +955,7 @@ text and &lt;strong>Important&lt;/strong> text.&lt;/p></code></pre>
           <p class="copy--small box--small">Our <span class="blue">index.html</span> now has headings,<br/> paragraphs, links, images, and lists -- whew!:</p>
 
         <pre><code contenteditable class="html" style="min-height: 300px; max-height: 475px;">
-            &lt;!DOCTYPE html>
+            &lt;!doctype html>
             &lt;html>
                &lt;head>
                   &lt;title>Title of the page &lt;/title>
@@ -1136,12 +1159,10 @@ text and &lt;strong>Important&lt;/strong> text.&lt;/p></code></pre>
 
         <!-- What is CSS-->
         <section>
-          <h3>CSS: What is it?</h3>
-          <p><span class="blue">CSS</span>=Cascading Style Sheets</p>
-          <br/>
-          <p>CSS is a "<span class="green">style sheet language</span>" that lets you style the elements on your page.</p>
-          <br/>
-          <p>CSS is works in conjunction with HTML,<br/>but is an entirely different language than HTML.</p>
+          <h3>What is CSS?</h3>
+          <p class="box"><span class='red'>C</span>ascading <span class='red'>S</span>tyle <span class='red'>S</span>heets</p>
+          <p class="box">CSS is a "<span class="green">style sheet language</span>" that lets you style the elements on your page.</p>
+          <p class="box">CSS works in conjunction with HTML,<br/>but is an entirely different language than HTML.</p>
         </section>
 
                    <!-- Role of HTML v. CSS-->
@@ -1170,7 +1191,7 @@ text and &lt;strong>Important&lt;/strong> text.&lt;/p></code></pre>
           <p class="copy--small box--small">Our <span class="blue">index.html</span> file now links to our <span class="blue">styles.css</span> document:</p>
 
         <pre><code contenteditable class="html" style="min-height: 300px; max-height: 475px;">
-            &lt;!DOCTYPE html>
+            &lt;!doctype html>
             &lt;html>
                &lt;head>
                   &lt;link rel="stylesheet" href="styles.css" />
@@ -1224,7 +1245,7 @@ text and &lt;strong>Important&lt;/strong> text.&lt;/p></code></pre>
       <section>
 
         <section>
-          <h3>CSS: What does it look like?</h3>
+          <h3>What does CSS look like?</h3>
           <img src="images/homepage-css.png">
         </section>
 
@@ -1704,8 +1725,7 @@ p {
           <p class="box--small">We're here to help!</p>
           <img src="images/questions_cat.jpg" alt="Confused? Let us help!" />
           <p class="box--small copy--small">
-            <a href="mailto:jewl@girldevelopit.com">jewl@girldevelopit.com</a> &nbsp; | &nbsp; <a href="http://twitter.com/jewlofthelotus">@jewlofthelotus</a></p>
-            <p class="box--small copy--small"><a href="mailto:annarbor@girldevelopit.com">annarbor@girldevelopit.com</a> &nbsp; | &nbsp; <a href="http://twitter.com/gdiannarbor">@gdiannarbor</a></p>
+            <a href="https://gdiaa.slack.com/messages/0216-html_css/">#0216-html_css</a> &nbsp; | &nbsp; <a href="mailto:annarbor@girldevelopit.com">annarbor@girldevelopit.com</a> &nbsp; | &nbsp; <a href="http://twitter.com/gdiannarbor">@gdiannarbor</a></p>
         </section>
 
       </div>
