@@ -31,7 +31,7 @@ Feb.10-11, 2018 taught by Karen Dickenson
         1. "What's wrong with my code?"
     1. Assign homework, Q&amp;A if needed (2:45)
     
-    
+ ##    
     
     
 * Session 2 (day 2)
