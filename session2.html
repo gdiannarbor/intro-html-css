@@ -672,7 +672,7 @@
 
           <section>
             <h3>Auto Margins</h3>
-            <p class="box--small copy--small">If a block-level element <em>has a set width</em>, you can set the left and right margins to <code>auto</code> to horizontally center the eleement in the container.</p>
+            <p class="box--small copy--small">If a block-level element <em>has a set width</em>, you can set the left and right margins to <code>auto</code> to horizontally center the element in the container.</p>
             <pre style="height: 120px; overflow: hidden"><code class="html">
               p {
                 margin: 0 auto;
@@ -776,7 +776,7 @@
            <h3>Pop Quiz</h3>
            <p class="copy--small box--small">Which one is invisible? Margin, padding or border?</p>
            <img src="images/box-model-padding.png" width="650"/>
-           <small class="fragment"><span class="blue">Margin.</span> <br/>Neither margin or padding can have a color assigned, <br />but padding does "shows" the background color of the content.</small>
+           <small class="fragment"><span class="blue">Margin.</span> <br/>Neither margin or padding can have a color assigned, <br />but padding does "show" the background color of the content.</small>
           </section>
 
           <section>
@@ -932,7 +932,11 @@
               &lt;p class="warning">Run away!&lt;/p>
               &lt;p class="warning">Take cover!&lt;/p>
               </code></pre>
-                         <p><small>(The associated HTML.)</small></p>
+              <p><small>(The associated HTML.)</small></p>
+              <div class="copy--small box--small">
+                <p class="warning" style="color: red;">Run away!</p>
+                <p class="warning" style="color: red;">Take cover!</p>
+              </div>
           </section>
 
           <!-- ID vs Class example-->
@@ -953,9 +957,10 @@
                 <p><small>Ex. There can be many warnings on one webpage.</small></p>
             </div>
              <div>
-                <pre style="height: 60px; overflow: hidden; width: 42%; float: left;"><code class="html">
+                <pre style="height: 80px; overflow: hidden; width: 42%; float: left;"><code class="html">
                   &lt;p class="this_class">
-                  &lt;p class="this_class">
+                  &lt;div class="this_class">
+                  &lt;a href="..." class="this_class">
               </code></pre>
               <pre style="height: 40px; overflow: hidden; width: 42%; float: right;"><code class="css">
                   .this_class { color: #333; }
@@ -1515,7 +1520,7 @@
              </ol>
              <div class="fragment box--small">
              <p class="green">ANSWER:</p>
-             <p class="copy--xsmall">Floats! Float one column to the left, the other to the right.</p>
+             <p class="copy--xsmall"><span class="blue">Floats!</span> Float one column to the left, the other to the right.</p>
              <p><small>Don't forget to set the width.</small></p>
              </div>
           </section>
